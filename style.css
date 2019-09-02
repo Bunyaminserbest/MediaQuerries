@@ -1,0 +1,398 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/* HEADER */
+
+header {
+  background-image: url(./Images/rbnb1.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding: 50px;
+}
+
+#header-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.subtitles-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  color: white;
+}
+
+.logo-icon {
+  color: white;
+  position: absolute;
+}
+
+#first-title {
+  color: white;
+  font-size: 44px;
+  margin-top: 50px;
+  margin-right: 300px;
+}
+
+#subtitle-1 {
+  font-size: 18px;
+}
+
+#subtitle-2 {
+  font-size: 18px;
+}
+
+#explorez {
+  width: 100%;
+  color: #484848;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  border: 2px solid white;
+  border-radius: 3px;
+  background-color: white;
+  padding: 13px 14px 13px 14px;
+}
+
+#accueillir {
+  width: 100%;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  border: 2px solid white;
+  border-radius: 3px;
+  background-color: #8ea2ab;
+  padding: 13px 14px 13px 14px;
+}
+
+#subtitle-1-content {
+  margin: 0 25px 0 0;
+}
+
+#subtitle-2-content {
+  width: 316px;
+}
+
+/* FORMS SECTION */
+
+section {
+  color: #484848;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.form-div {
+  align-items: center;
+  padding: 50px;
+  margin: auto;
+}
+
+form {
+  display: flex;
+  justify-content: flex-start;
+}
+
+section form div {
+  margin-right: 10px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.search {
+  font-size: 16px;
+  padding: 13px 11px 13px 11px;
+  margin-top: 10px;
+  border: 1px solid rgb(228, 228, 228);
+  border-radius: 3px;
+  color: #484848;
+}
+
+#search-button {
+  background-color: rgb(255, 90, 95);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  width: 100%;
+  margin-top: 23px;
+  padding: 15px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+#logo-star {}
+
+/* OPINIONS SECTION*/
+
+#opinion-div {
+  margin: auto;
+}
+
+#opinions-subtitle {
+  display: flex;
+  justify-content: flex-start;
+}
+
+#opinions-ul {
+  display: flex;
+  padding: 0;
+  list-style: none;
+}
+
+.margin-li {
+  width: 345px;
+  margin-right: 10px;
+}
+
+#img-opinions {
+  width: 345px;
+  height: 230px;
+}
+
+#people {
+  width: 75px;
+  height: 75px;
+  border-radius: 100%;
+}
+
+#logo-star {
+  display: flex;
+  align-items: center;
+  width: 30px;
+}
+
+.opinion-p {
+  font-size: 14px;
+}
+
+/* TRAVEL WITH RBNB */
+
+#travel-div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: auto;
+}
+
+#travel-ul {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0;
+}
+
+.travel-li {
+  width: 345px;
+  list-style: none;
+  margin-right: 10px;
+  text-align: justify;
+}
+
+.travel-P {
+  font-size: 14px;
+}
+
+/* RESERVATION */
+
+#reservation-div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: auto;
+}
+
+.reservation-ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.reservation-li {
+  width: 203px;
+  margin-right: 60px;
+}
+
+.reservation-img {
+  width: 203px;
+  height: 135px;
+}
+
+.stars {
+  width: 65px;
+  height: 10px;
+}
+
+.first-p {
+  color: rgb(120, 120, 120);
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.second-p {
+  font-size: 14px;
+}
+
+.third-p {
+  font-size: 12px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+#reservation-a {
+  font-size: 17px;
+  font-weight: bold;
+  color: rgb(0, 132, 137);
+  text-decoration: none;
+}
+
+#reservation-h2 {
+  font-size: 24px;
+}
+
+#reservation-button {
+  font-size: 16px;
+  color: white;
+  background-color: rgb(0, 132, 137);
+  border: 1px solid rgb(0, 132, 137);
+  border-radius: 5px;
+  padding: 15px 25px 15px 25px;
+}
+
+/* FOOTER */
+
+.footer-div {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 64px;
+}
+
+.footer-ul {
+  width: 230px;
+  list-style: none;
+  margin-left: 60px;
+  padding: 0;
+}
+
+.footer-ul li {
+  color: #484848;
+  width: 177px;
+  line-height: 25px;
+  font-weight: bold;
+}
+
+.footer-ul li a {
+  text-decoration: none;
+  color: #969696;
+}
+
+.flexstart {
+  display: flex;
+}
+
+.flexend {
+  display: flex;
+  padding-left: 600px;
+}
+
+.display {
+  display: flex;
+  padding: 0 120px 0 120px;
+}
+
+.paddingtop {
+  padding-top: 10px;
+  padding-right: 5px;
+}
+
+/* MEDIA-QUERIES */
+
+
+@media screen and (max-width: 760px) {
+
+
+
+  #first-title {
+    font-size: 25px;
+    margin: auto;
+  }
+
+  .subtitles-content {
+    display: flex;
+    flex-direction: column
+  }
+
+  #subtitle-1-content {
+    margin: auto;
+    width: 100%;
+  }
+
+  #subtitle-2-content {
+    margin: auto;
+    width: 100%;
+  }
+
+  #accueillir {
+    margin: auto
+  }
+
+  form {
+    display: flex;
+    flex-direction: column
+  }
+
+  #opinion-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: auto;
+    width: 100%;
+  }
+
+  #opinions-ul {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  #opinions-subtitle p {
+    font-size: 14px;
+  }
+
+  .opinion-h2 {
+    font-size: 20px
+  }
+
+  #reservation-div {
+    align-items: center
+  }
+
+  .reservation-ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .reservation-li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center
+  }
+
+}
